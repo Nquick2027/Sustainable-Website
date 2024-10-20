@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: none;
+}
+
+header, nav ul, #content-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #008000;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header {
+    position: relative;
+}
+
+header h1, nav ul {
+    padding-left: 50px;
+}
+
+nav {
+    background-color: #008000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #9ae39a;
+}
+
+main img {
+    border: double 3px;
+    color: #333;
+    float: left;
+    margin: .5rem 1rem .5rem;
+}
+
+main section {
+    display: flex;
+}
+
+main section div {
+    background-color: #e7ffe7;
+    border: 1px #008000;
+    border-radius: 10px;
+    width: fit-content;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+main section div:last-child {
+    margin-right: 0;
+}
+
+main section div h2 {
+    background-color: #008000;
+    border-radius: 10px 0px 0px;
+    color: white;
+    margin-top: 0;
+}
+
+main section div {
+    border: 3px double #333;
+    display: block;
+}
+
+aside section {
+    background-color: white;
+    margin-bottom: 1rem;
+    border: 1px solid #008000;
+}
+
+aside h3 {
+    background-color: #008000;
+    color: white;
+    padding: .5rem;
+    margin: 0;
+}
+
+aside a {
+    display: inline-block;
+    padding: .5rem;
+}
+
+#content-wrapper {
+    display: flex;
+}
+
+#content-wrapper aside {
+    background-color: #ccc;
+    margin-right: 1rem;
+    padding: .5rem;
+    position: relative 20px 0px;
+    order: 1;
+    width: 100%;
+}
+
+main aside h2 {
+    margin-top: 0;
+    white-space: none;
+}
+
+#content-wrapper main {
+    order: 2;
+    width: 400%;
+}
